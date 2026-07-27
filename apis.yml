@@ -1,7 +1,27 @@
 aid: impactyn-bv
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/impactyn-bv.png
 name: Impactyn B.V
-description: Impactyn B.V is a company surfaced as a portfolio company of 500-global and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Impactyn B.V is an AI-powered crowd-marketing platform that turns authentic
+  user-generated video reviews into brand marketing assets. Based in Cairo,
+  Egypt, Impactyn connects brands with real customers who record genuine video
+  testimonials, letting businesses leverage user-generated video content to
+  increase visibility, credibility, and engagement. The platform is delivered
+  primarily through consumer iOS and Android mobile apps plus a partner/brand
+  web console, and was surfaced as a portfolio company of 500 Global. No public
+  API or developer platform is currently published; this profile captures the
+  company identity and domain-security posture.
 url: https://raw.githubusercontent.com/api-evangelist/impactyn-bv/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +31,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Marketing
+- Video
+- User-Generated Content
+- Advertising
+- Reviews
+- Mobile
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +47,22 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/impactyn-bv-domain-security.yml
 - type: Website
   url: https://impactyn.com
+- type: About
+  url: https://impactyn.com/about
+- type: Support
+  url: https://impactyn.com/contact
+- type: TermsOfService
+  url: https://impactyn.com/tac
+- type: PrivacyPolicy
+  url: https://impactyn.com/privacy_policy
+- type: LLMsTxt
+  url: llms/impactyn-bv-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

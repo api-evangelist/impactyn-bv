@@ -1,0 +1,27 @@
+# Impactyn
+
+> Impactyn is an AI-powered crowd-marketing platform that turns authentic user-generated video reviews into brand marketing assets. Based in Cairo, Egypt, it connects brands with real customers who record genuine video testimonials. Delivered primarily through consumer iOS and Android apps plus a partner/brand web console. No public API or developer platform is currently published.
+
+## Company
+- [Home](https://impactyn.com): Impactyn marketing platform homepage
+- [About](https://impactyn.com/about): About Impactyn
+- [Partners](https://impactyn.com/partners): Brand and partner program
+- [Investors](https://impactyn.com/investors): Investor information
+- [Contact](https://impactyn.com/contact): Contact and support
+
+## Apps
+- [iOS App](https://apps.apple.com/eg/app/impactyn/id1611013969): Impactyn on the Apple App Store
+- [Android App](https://play.google.com/store/apps/details?id=com.innov8eg.impactyn): Impactyn on Google Play
+- [Partner Login](http://admin.impactyn.com/home/login): Brand/partner web console
+
+## Legal
+- [Terms & Conditions](https://impactyn.com/tac): Terms of service
+- [Privacy Policy](https://impactyn.com/privacy_policy): Privacy policy
+- [Child Safety Standards](https://impactyn.com/child_safety_standards): Child safety standards
+
+## Social
+- [LinkedIn](https://eg.linkedin.com/company/impactyn)
+- [Facebook](https://www.facebook.com/Impactyn/)
+- [Twitter/X](https://twitter.com/impactyn)
+- [Instagram](https://instagram.com/impactyn)
+- [YouTube](https://www.youtube.com/channel/UCLbsAbQ3sxTNmjEz8JdJ-Lw)
