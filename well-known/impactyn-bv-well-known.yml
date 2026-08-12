@@ -1,0 +1,88 @@
+generated: '2026-08-12'
+method: probed
+source: live HTTPS probes of every host named in apis.yml and on the impactyn.com website
+note: >-
+  Every /.well-known/ path probed on the only reachable Impactyn host returned a
+  real HTTP 404 from the Cloudflare-fronted marketing site. No well-known
+  document of any kind is served, so NO WellKnown or SecurityTxt pointer is
+  emitted in apis.yml — this file records a verified absence, not a presence.
+  The brand/partner console host advertised on the website
+  (http://admin.impactyn.com/home/login) could not be probed at all: the name
+  resolves NOERROR with zero address records, so it has no reachable endpoint.
+  api.impactyn.com is NXDOMAIN.
+hosts:
+- host: impactyn.com
+  reachable: true
+  scheme: https
+  probes:
+  - path: /.well-known/security.txt
+    status: 404
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 404
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+    file: null
+  - path: /.well-known/oauth-protected-resource
+    status: 404
+    file: null
+  - path: /.well-known/api-catalog
+    status: 404
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 404
+    file: null
+  - path: /.well-known/agent-card.json
+    status: 404
+    file: null
+  - path: /.well-known/agent.json
+    status: 404
+    file: null
+  - path: /.well-known/mcp.json
+    status: 404
+    file: null
+- host: www.impactyn.com
+  reachable: true
+  scheme: https
+  probes:
+  - path: /.well-known/security.txt
+    status: 404
+    file: null
+  - path: /.well-known/agent-card.json
+    status: 404
+    file: null
+  - path: /.well-known/agent.json
+    status: 404
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 404
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+    file: null
+  - path: /.well-known/api-catalog
+    status: 404
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 404
+    file: null
+- host: admin.impactyn.com
+  reachable: false
+  dns: NOERROR with 0 A records
+  note: >-
+    Brand/partner web console linked from the Impactyn homepage footer
+    (http://admin.impactyn.com/home/login). The hostname has no address record,
+    so no HTTP request could be made and no path could be probed.
+  probes: []
+- host: api.impactyn.com
+  reachable: false
+  dns: NXDOMAIN
+  note: Speculative API host; the name does not exist in DNS.
+  probes: []
+summary:
+  hosts_probed: 2
+  hosts_unreachable: 2
+  paths_probed: 16
+  documents_found: 0
+  pointer_emitted: false

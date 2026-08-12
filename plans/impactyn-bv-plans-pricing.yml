@@ -1,0 +1,29 @@
+generated: '2026-08-12'
+method: searched
+source: https://impactyn.com/partners
+docs: https://impactyn.com/contact
+note: >-
+  Impactyn publishes no pricing page and no plans of any kind. Every pricing-shaped
+  route on the site 404s (/pricing, /shop, /services, /cart, /checkout are unedited
+  links in the off-the-shelf HTML template the marketing site is built on). The
+  brands/partners page describes the offer — campaign-based crowd-marketing with a
+  live ROI dashboard — but attaches no numbers, no tiers, no quotas and no currency,
+  and routes every prospect to the contact form (info@impactyn.com). Consumer
+  ("Impactyr") participation is free and paid-to-the-user, which is a payout model
+  rather than a plan. Because plan_count is 0, NO `Plans` or `Pricing` pointer is
+  emitted in apis.yml — this file records a verified absence, not a published
+  pricing surface.
+model: contact-sales
+currency: null
+plan_count: 0
+plans: []
+evidence:
+- url: https://impactyn.com/partners
+  status: 200
+  finding: brand/partner offer described; no prices, tiers or quotas stated
+- url: https://impactyn.com/pricing
+  status: 404
+  finding: no pricing page exists
+- url: https://impactyn.com/contact
+  status: 200
+  finding: sales contact form is the only stated route to engage as a brand

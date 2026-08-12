@@ -1,18 +1,18 @@
 # Impactyn
 
-> Impactyn is an AI-powered crowd-marketing platform that turns authentic user-generated video reviews into brand marketing assets. Based in Cairo, Egypt, it connects brands with real customers who record genuine video testimonials. Delivered primarily through consumer iOS and Android apps plus a partner/brand web console. No public API or developer platform is currently published.
+> Impactyn (Impactyn B.V) is an AI-powered crowd-marketing platform that turns authentic user-generated video reviews into brand marketing assets. Founded by Mohamed Wahid and based in Cairo, Egypt (Capital Business Park, Sheikh Zayed; Egyptian Commercial Register No. 18682), it pays real consumers to record genuine video testimonials for brand campaigns and gives brands a live dashboard of views, engagement and ROI. The product reaches consumers through iOS and Android apps and reaches brands through a hosted partner console. Impactyn publishes NO public API, developer portal, documentation, SDK, OpenAPI/AsyncAPI/GraphQL contract, MCP server, agent card or `/.well-known/` document — verified by probe on 2026-08-12 (see well-known/impactyn-bv-well-known.yml). Brand access is arranged through the sales contact form, not through self-serve developer signup.
 
 ## Company
 - [Home](https://impactyn.com): Impactyn marketing platform homepage
-- [About](https://impactyn.com/about): About Impactyn
-- [Partners](https://impactyn.com/partners): Brand and partner program
-- [Investors](https://impactyn.com/investors): Investor information
-- [Contact](https://impactyn.com/contact): Contact and support
+- [About](https://impactyn.com/about): How the crowd-marketing model works
+- [Partners](https://impactyn.com/partners): Brand and partner program, live dashboard description
+- [Impactyrs](https://impactyn.com/impactyrs): The consumer/creator side of the platform
+- [Investors](https://impactyn.com/investors): Investor information; backed by 500 Global (500 Startups + Sanabil)
+- [Contact](https://impactyn.com/contact): Sales and support contact form, info@impactyn.com
 
 ## Apps
 - [iOS App](https://apps.apple.com/eg/app/impactyn/id1611013969): Impactyn on the Apple App Store
-- [Android App](https://play.google.com/store/apps/details?id=com.innov8eg.impactyn): Impactyn on Google Play
-- [Partner Login](http://admin.impactyn.com/home/login): Brand/partner web console
+- [Android App](https://play.google.com/store/apps/details?id=com.innov8eg.impactyn): Impactyn on Google Play (com.innov8eg.impactyn)
 
 ## Legal
 - [Terms & Conditions](https://impactyn.com/tac): Terms of service
@@ -25,3 +25,9 @@
 - [Twitter/X](https://twitter.com/impactyn)
 - [Instagram](https://instagram.com/impactyn)
 - [YouTube](https://www.youtube.com/channel/UCLbsAbQ3sxTNmjEz8JdJ-Lw)
+
+## Notes for agents
+- There is no programmatic surface to call. Every path probed on impactyn.com for a machine-readable contract (`/openapi.json`, `/openapi.yaml`, `/swagger.json`, `/v1/openapi.json`, `/api-docs`, `/docs`, `/redoc`, `/graphql`, `/llms.txt`) returned HTTP 404 on 2026-08-12.
+- The brand/partner console linked from the site footer (`http://admin.impactyn.com/home/login`) is NOT reachable: `admin.impactyn.com` resolves NOERROR with zero address records. `api.impactyn.com` is NXDOMAIN.
+- The marketing site is built on an off-the-shelf HTML template; several footer/nav links (`/blog`, `/faq`, `/services`, `/team`, `/cases`, `/shop`) are template stubs that 404, and the displayed phone numbers are unedited template placeholders. Do not treat them as Impactyn contact details.
+- No pricing is published; brand engagement is quoted through the contact form.
